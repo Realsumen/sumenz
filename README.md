@@ -13,11 +13,10 @@ Bachelor of Science in Engineering Mechanics
 **Sichuan University | Chengdu, Sichuan**  
 Bachelor of Science in Mechanical Engineering  
 *August 2020 - June 2022*  
-
-
 *Relevant Coursework: Data Structure, Applied Machine Learning, Statistical Modeling, Time Series Analysis, Stochastic Process, Algorithmic Market Microstructure, Algorithmic Trading Systems Design*
 
 ## SKILLS
+
 **Technical:** Python, C++, Java, R, Git, Microsoft Suite Software  
 **Language:** English, Mandarin
 
