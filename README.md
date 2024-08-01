@@ -1,5 +1,7 @@
+# Quantitative Analyst
 
 447-902-2273 | sz65@illinois.edu
+
 [LinkedIn](https://www.linkedin.com/in/shumeng-zhang-a54292204)
 
 ## EDUCATION
@@ -22,15 +24,15 @@ Bachelor of Science in Mechanical Engineering
 ## INTERNSHIP EXPERIENCE
 
 **Beijing Junrui Private Equity Fund Management Co., Ltd.**  
-*Quantitative Researcher*  
+*Quantitative Researcher* 
 *April 2024 – Present*  
-*Trend Following Model Based on Self-Attention and Pattern Learning*
+Trend Following Model Based on Self-Attention and Pattern Learning
 
 - Developed a high-frequency trading system using changepoint detection, integrating various spans of MACD and return factors with attention mechanisms to learn patterns from historical price sequences.
 - Implemented a composite loss function using maximum likelihood for model output adjustments, and a feed-forward module to estimate the next day's positions, optimizing the Sharpe ratio.
 - Replicated results from a study, achieving an average annualized Sharpe return of 2.1 on futures data from 2013 to 2023, with faster recovery during extreme market conditions of 2020.
 
-*Pair Trading and Inter-Commodity Spread Arbitrage*
+Pair Trading and Inter-Commodity Spread Arbitrage
 
 - Engaged in trading different periods of stock index futures (CSI 1000, SSE 50, and CSI 300) using a z-score-based entry and exit strategy for hedge trades.
 - Backtested with per-minute order book data, calculating absolute differences in cumulative returns between near and far month contracts, achieving an annualized return of 14%.
