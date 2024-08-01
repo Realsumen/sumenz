@@ -13,7 +13,7 @@ Bachelor of Science in Engineering Mechanics
 **Sichuan University | Chengdu, Sichuan**  
 Bachelor of Science in Mechanical Engineering  
 *August 2020 - June 2022*  
-GPA: 3.5/4.0
+
 
 *Relevant Coursework: Data Structure, Applied Machine Learning, Statistical Modeling, Time Series Analysis, Stochastic Process, Algorithmic Market Microstructure, Algorithmic Trading Systems Design*
 
