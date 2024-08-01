@@ -1,6 +1,6 @@
 # Quantitative Analyst
 
-447-902-2273 | sz65@illinois.edu
+447-902-2273|sz65@illinois.edu
 
 [LinkedIn](https://www.linkedin.com/in/shumeng-zhang-a54292204)
 
