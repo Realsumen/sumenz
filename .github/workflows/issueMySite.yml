@@ -1,10 +1,14 @@
 name: publish site
-# 触发条件
 on:
   push:
     branches:
       - main
-# workflow 的具体内容
+
+
+permissions:
+  contents: write  # 推代码到分支
+  pages:    write  # 部署 Pages
+
 jobs:
   deploy:
     # 创建一个 Ubuntu 容器
