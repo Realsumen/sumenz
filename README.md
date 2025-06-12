@@ -1,6 +1,6 @@
-# Quantitative Analyst
+# Shumeng Zhang
 
-447-902-2273|sz65@illinois.edu
+(+86) 13975360505 | realsumen001@163.com
 
 [LinkedIn](https://www.linkedin.com/in/shumeng-zhang-a54292204)
 
@@ -8,7 +8,7 @@
 
 **University of Illinois at Urbana-Champaign**  
 Bachelor of Science in Engineering Mechanics  
-*Minors in Computer Science, Statistics*  
+*Minors Statistics*  
 *August 2022 - May 2025*
 
 **Sichuan University | Chengdu, Sichuan**  
