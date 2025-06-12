@@ -1,64 +1,43 @@
-# Shumeng Zhang
+# Welcome to my ISLAND
 
-(+86) 13975360505 | realsumen001@163.com
-
-[LinkedIn](https://www.linkedin.com/in/shumeng-zhang-a54292204)
+(+86) 139 7536 0505 │ [realsumen001@163.com](mailto:realsumen001@163.com) │ [LinkedIn](https://www.linkedin.com/in/shumeng-zhang-a54292204)
 
 ## EDUCATION
 
-**University of Illinois at Urbana-Champaign**  
-Bachelor of Science in Engineering Mechanics  
-*Minors Statistics*  
-*August 2022 - May 2025*
-
-**Sichuan University | Chengdu, Sichuan**  
-Bachelor of Science in Mechanical Engineering  
-*August 2020 - June 2022*  
-*Relevant Coursework: Data Structure, Applied Machine Learning, Statistical Modeling, Time Series Analysis, Stochastic Process, Algorithmic Market Microstructure, Algorithmic Trading Systems Design*
+* **University of Illinois at Urbana-Champaign** – B.S. Engineering Mechanics, Minor in Statistics (Aug 2022 – May 2025) GPA 3.71/4.0
+* **Sichuan University** – B.S. Mechanical Engineering (Aug 2020 – Jun 2022) GPA 3.5/4.0
 
 ## SKILLS
 
-**Technical:** Python, C++, Java, R, Git, Microsoft Suite Software  
-**Language:** English, Mandarin
+Python (Pandas & Polars for data-wrangling, PyTorch for deep learning) · C++ (core concepts & performance tuning) · SQL · XGBoost / LightGBM / CatBoost · Git / Linux
 
-## INTERNSHIP EXPERIENCE
+## EXPERIENCE
 
-**Beijing Junrui Private Equity Fund Management Co., Ltd.**  
-*Quantitative Researcher* 
-*April 2024 – Present*  
-Trend Following Model Based on Self-Attention and Pattern Learning
+**Beijing Junrui PE Fund – Quant Researcher** (Apr 2024 – Aug 2024)
 
-- Developed a high-frequency trading system using changepoint detection, integrating various spans of MACD and return factors with attention mechanisms to learn patterns from historical price sequences.
-- Implemented a composite loss function using maximum likelihood for model output adjustments, and a feed-forward module to estimate the next day's positions, optimizing the Sharpe ratio.
-- Replicated results from a study, achieving an average annualized Sharpe return of 2.1 on futures data from 2013 to 2023, with faster recovery during extreme market conditions of 2020.
+* **Self-Attention Trend-Following** – futures model with composite ML loss, **Sharpe 2.1** on 2013-23 data. [\[code\]](url)
+* **Index-Futures Pair Trading** – z-score entry/exit on CSI & SSE contracts, **14 % annualized**. [\[report\]](url)
 
-Pair Trading and Inter-Commodity Spread Arbitrage
+**JD.com – Data Engineer Intern** (Jan 2024 – Apr 2024)
 
-- Engaged in trading different periods of stock index futures (CSI 1000, SSE 50, and CSI 300) using a z-score-based entry and exit strategy for hedge trades.
-- Backtested with per-minute order book data, calculating absolute differences in cumulative returns between near and far month contracts, achieving an annualized return of 14%.
+* Deployed **1.8 B-param text2vec** model for SKU query generation; defect rate ↓ 25 %. [\[demo\]](url)
 
-**Jd.com, Inc**  
-*Data Engineer Internship*  
-*January 2024 – April 2024*
+## PROJECTS
 
-- Analyzed existing defects in the SKU generation query system on external middle pages, researching embedding generators based on large models like text2vec and BERT, and designing evaluation schemes for semantic similarity and diversity of queries.
-- Deployed and fine-tuned a 1.8B parameter language model locally for SKU generation query tasks, improving model stability and reducing query generation anomaly rate by 25% compared to the native system.
+| Year       | Project                         | Impact / Metric             | Link                |
+| ---------- | ------------------------------- | --------------------------- | ------------------- |
+| 2024-now   | **C++ Limit-Order-Book Engine** | <1 ms match latency         | [\[repo\]](url)     |
+| 2023 Q4    | **Index Long-Short Arbitrage**  | 17 % annualized, 35 % vol ↓ | [\[notebook\]](url) |
+| 2023 Q1-Q2 | **Elo Credit Risk (Kaggle)**    | top 1 % leaderboard         | [\[kaggle\]](url)   |
 
-## PROJECT HIGHLIGHTS
+## COMPETITION HONORS
 
-**Index Long-Short Arbitrage Strategy**  
-*October 2023 - December 2023*
-- Constructed 'long index' and 'short index' portfolios based on the Dow Jones index with an annual excess return target of 7%.
-- Implemented linear regression on historical data to determine the weights of the top 20 stocks for the 'long index' and 'short index' portfolios.
-- Reduced return volatility by exploiting price differentials between the two indices, achieving an annualized return of 17%.
+* **3rd**, HF Futures Market Challenge – Transformer + GRU multi-target model (Feb-Mar 2025). [\[leaderboard\]](url)
+* **Silver**, *Jane Street Real-Market Forecasting* (Dec 2024-Jan 2025). [\[solution\]](url)
+* **Silver**, Yale Seismic Wave Prediction (Apr-Jun 2025). [\[poster\]](url)
+* **CME Group Trading Challenge** – 5th overall in China, **4 % P\&L** (Sep-Oct 2024). [\[summary\]](url)
+* UIUC Dean’s List, Spring 2023.
 
-**Elo Credit Information Prediction Competition**  
-*March 2023 - June 2023*
-- Implemented feature engineering and data preprocessing techniques using LightGBM, XGBoost, and CatBoost to build predictive models for regression and binary classification tasks, achieving top 1% ranking on the competition leaderboard.
+---
 
-## HONORS
-**At University of Illinois at Urbana-Champaign**
-- Acknowledged for Dean's List achievement during the spring semester of 2023.
-
-**At Sichuan University**
-- Academic-achievement award for students.
+> **Tip:** 将 `url` 替换成实际的 GitHub / Kaggle / Google Drive / Overleaf 链接即可直接生成可点击的 PDF 简历。
