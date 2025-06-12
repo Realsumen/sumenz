@@ -1,19 +1,18 @@
-# --- 基本信息 -------------------------------------------------------------
 site_name: Shumeng Zhang
 site_url: https://realsumen.github.io
 site_author: Shumeng Zhang
 site_description: Notes & Resume
 
-# --- 导航 (只列出现有的两篇文件) -----------------------------------------
-# docs_dir 设为 "."，所以路径直接写你仓库里的相对位置
-docs_dir: "."
+docs_dir: "docs"
 
 nav:
-  - Notes:
+  - Home: index.md
+  - Book Notes:
       - Empirical Market Structure: _notes/empirical-market-strucuture.md
-  - Resume: _resume/index.md
+      - Market Microstructure Theory: _notes/market-microstructure-theory.md
+      - Probability Theory and Examples: _notes/probability-theory-and-examples.md
+  - About ME: _resume/index.md
 
-# --- 主题 ------------------------------------------------------------------
 theme:
   name: material
   language: zh
@@ -22,13 +21,24 @@ theme:
     - navigation.top          # 上滑出现“返回顶部”按钮
     - search.highlight
     - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to Night Mode
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
 
-# --- 插件 ------------------------------------------------------------------
 plugins:
   - search:
       lang: [zh, en]
 
-# --- Markdown 扩展 (择一两个常用的即可) -----------------------------------
 markdown_extensions:
   - toc:
       permalink: true
