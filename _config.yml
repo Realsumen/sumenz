@@ -1,41 +1,35 @@
-site_name: Shumeng 的个人网站
-logo: asset/image/selfie.jpg
-show_downloads: false
+# --- 基本信息 -------------------------------------------------------------
+site_name: Shumeng Zhang
+site_url: https://realsumen.github.io
+site_author: Shumeng Zhang
+site_description: Notes & Resume
+
+# --- 导航 (只列出现有的两篇文件) -----------------------------------------
+# docs_dir 设为 "."，所以路径直接写你仓库里的相对位置
+docs_dir: "."
+
+nav:
+  - Notes:
+      - Empirical Market Structure: _notes/empirical-market-strucuture.md
+  - Resume: _resume/index.md
+
+# --- 主题 ------------------------------------------------------------------
 theme:
   name: material
-  palette:
-    # Day Mode
-    - scheme: default
-      # Theme Color
-      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
-      primary: indigo
-      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
-      accent: orange
-      toggle:
-        # 图标
-        icon: material/weather-night
-        # 鼠标悬浮提示
-        name: Switch to Night Mode
-    # 夜间模式
-    - scheme: slate
-      primary: indigo
-      accent: orange
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to Day Mode
+  language: zh
+  features:
+    - navigation.indexes      # 点击 Tab 默认打开 index.md（可选，留着也行）
+    - navigation.top          # 上滑出现“返回顶部”按钮
+    - search.highlight
+    - search.suggest
 
-collections:
-  notes:
-    output: true
-    permalink: /notes/:title/
-  resume:
-    output: true
-    permalink: /resume/
+# --- 插件 ------------------------------------------------------------------
+plugins:
+  - search:
+      lang: [zh, en]
 
-# （可选）导航栏
-nav:
-  - name: Notes
-    link: /notes/
-  - name: Resume
-    link: /resume/
-
+# --- Markdown 扩展 (择一两个常用的即可) -----------------------------------
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
