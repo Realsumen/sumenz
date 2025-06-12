@@ -1,7 +1,28 @@
 site_name: Shumeng 的个人网站
 logo: asset/image/selfie.jpg
 show_downloads: false
-theme: jekyll-theme-minimal
+theme:
+  name: material
+  palette:
+    # Day Mode
+    - scheme: default
+      # Theme Color
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+      primary: indigo
+      # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#accent-color
+      accent: orange
+      toggle:
+        # 图标
+        icon: material/weather-night
+        # 鼠标悬浮提示
+        name: Switch to Night Mode
+    # 夜间模式
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Day Mode
 
 collections:
   notes:
