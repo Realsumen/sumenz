@@ -16,16 +16,14 @@
 
 **Beijing Junrui PE Fund – Quant Researcher Intern** (Apr 2024 – Aug 2024)
 
-* **Self-Attention Trend-Following** – futures model with composite ML loss, **Sharpe 2.1** on 2013-23 data. [\[code\]](url)
-* **Index-Futures Pair Trading** – z-score entry/exit on CSI & SSE contracts, **14 % annualized**. [\[report\]](url)
+* **High-Frequency Factor Research** – engineered return and orderbook-based factors; achieved an Information Coefficient of \~0.1 on 2021–2023 data. [code](url)
+* **Index-Futures Pair Trading** – deployed a z-score entry/exit strategy on CSI 1000, SSE 50 & CSI 300 futures, generating 14 % annualized returns. [report](url)
 
 ### PROJECTS
 
-| Year       | Project                         | Impact / Metric             | Link                |
-| ---------- | ------------------------------- | --------------------------- | ------------------- |
-| 2024-now   | **C++ Limit-Order-Book Engine** | <1 ms match latency         | [\[repo\]](url)     |
-| 2023 Q4    | **Index Long-Short Arbitrage**  | 17 % annualized, 35 % vol ↓ | [\[notebook\]](url) |
-| 2023 Q1-Q2 | **Elo Credit Risk (Kaggle)**    | top 1 % leaderboard         | [\[kaggle\]](url)   |
+| Year     | Project                         | Description & Results                                                                                    | Link                                                 |
+| -------- | ------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| September 2024 – December 2024 | **C++ Limit-Order-Book Engine** | Supports Market, Limit & Stop orders; Builds live orderbook from trade data using IEX data and executes matching logic. | [repo](https://github.com/Realsumen/matching-engine) |
 
 ### COMPETITION HONORS
 
