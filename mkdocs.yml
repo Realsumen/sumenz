@@ -8,12 +8,10 @@ docs_dir: "docs"
 nav:
   - Home: index.md
   - Book Notes:
-      - Empirical Market Structure: _notes/empirical-market-strucuture.md
+      - Empirical Market Microstructure: 
+        - EMT chapter1 Roll model: _notes/empirical-market-microstrucuture/chapter1.md
       - Market Microstructure Theory: _notes/market-microstructure-theory.md
       - Probability Theory and Examples: _notes/probability-theory-and-examples.md
-  # - Film Reviews: 
-  #     - 2025: 
-  #       - Inland Empire: _film_reviews/inland-empire.md
   - About ME: _resume/index.md
 
 theme:
@@ -90,15 +88,10 @@ markdown_extensions:
 
 extra_javascript:
   # [数学公式支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - mkdocs/javascripts/katex.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 extra_css:
-  # [数学公式支持]
-  # https://squidfunk.github.io/mkdocs-material/reference/math/#katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  # [自定义 css]
   # 不使用底部的翻页
   - mkdocs/css/no-footer.css
   # 无序列表符号自定义
