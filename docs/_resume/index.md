@@ -3,21 +3,21 @@
 
 ### EDUCATION
 
-* **University of Illinois at Urbana-Champaign** – B.S. Engineering Mechanics, Minor in Statistics (Aug 2022 – May 2025)
-* **Sichuan University** – B.S. Mechanical Engineering (Aug 2020 – Jun 2022)
+* **University of Illinois at Urbana-Champaign** – B.S. Engineering Mechanics
+* **Sichuan University** – B.S. Mechanical Engineering
 
 ### SKILLS
 
-* Python (Pandas & Polars for data-wrangling, PyTorch for deep learning)
+* **Python** (Pandas & Polars for data-wrangling, PyTorch for deep learning)
 
-* C++ (core concepts & performance tuning)
+* **C++** (core concepts & performance tuning)
 
 ### EXPERIENCE
 
-**Beijing Junrui PE Fund – Quant Researcher Intern** (Apr 2024 – Aug 2024)
+**Beijing Junrui Investment – Quant Researcher Intern** (Apr 2024 – Aug 2024)
 
-* **High-Frequency Factor Research** – engineered return and orderbook-based factors; achieved an Information Coefficient of \~0.1 on 2021–2023 data. [code](url)
-* **Index-Futures Pair Trading** – deployed a z-score entry/exit strategy on CSI 1000, SSE 50 & CSI 300 futures, generating 14 % annualized returns. [report](url)
+* **High-Frequency Factor Research** – engineered return and orderbook-based factors; achieved an **IC** (Information Coefficient) of 0.1 on 2021–2023 data.
+* **Index-Futures Pair Trading** – deployed a z-score entry/exit strategy on CSI 1000, SSE 50 & CSI 300 futures, generating 14 % annualized returns. 
 
 ### PROJECTS
 
@@ -27,5 +27,5 @@
 
 ### COMPETITION HONORS
 
-* **3rd**, High-Frequency Futures Market Challenge – Transformer + GRU multi-target model (Feb-Mar 2025). [\[repo\]](url)
+* **3rd**, High-Frequency Futures Market Challenge – Transformer + GRU multi-target model (Feb-Mar 2025). [[repo\]](https://github.com/Realsumen/High-Frequency-Futures-Market-Challenge)
 * **Silver**, *Jane Street Real-Market Forecasting* (Dec 2024-Jan 2025).
