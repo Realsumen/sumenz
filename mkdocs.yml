@@ -9,7 +9,7 @@ nav:
   - Home: index.md
   - Book Notes:
       - Empirical Market Microstructure: 
-        - EMT chapter1 Roll model: _notes/empirical-market-microstrucuture/chapter1.md
+        - EMM chapter3 Roll model: _notes/empirical-market-microstrucuture/chapter3.md
       - Market Microstructure Theory: _notes/market-microstructure-theory.md
       - Probability Theory and Examples: _notes/probability-theory-and-examples.md
   - About ME: _resume/index.md
