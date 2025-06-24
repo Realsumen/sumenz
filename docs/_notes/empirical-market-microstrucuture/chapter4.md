@@ -70,7 +70,18 @@ $$
 \theta = \dfrac{\gamma_0-\sqrt{\gamma_0^{2}-4\gamma_1^{2}}}{2\gamma_1},\qquad
 \sigma_\varepsilon^{2} = \dfrac{\gamma_0+\sqrt{\gamma_0^{2}-4\gamma_1^{2}}}{2}
 $$
-We can see that $|\theta|\lt1$, which is inbertible. Another set are $\theta^*=1/\theta$ and $\sigma_\varepsilon^{2*}=\theta^2\sigma^2_\varepsilon$. For noninvertible solution, $|\theta^*| \gt1$
+We can see that $|\theta|\lt1$, which is invertible. Another set are $\theta^*=1/\theta$ and $\sigma_\varepsilon^{2*}=\theta^2\sigma^2_\varepsilon$. For noninvertible solution, $|\theta^*| \gt1$
 
 ### **4.3 Autoregressive Models**
+
+We can rearrange $\Delta p_t=\varepsilon+\theta\varepsilon_{t-1}$ as $\varepsilon_t=\Delta p_t-\theta\varepsilon_{t-1}$. This gives us a backward recursion for $\varepsilon_t$, and evantually leads to:
+
+$$
+\Delta p_t = \theta \Delta p_{t-1} - \theta^2 \Delta p_{t-2} + \theta^3 \Delta p_{t-3} + \cdots + \varepsilon_t.
+$$
+
+This is the autoregressive form: $\Delta p$ is expressed as a linear function of its own lagged values and the current disturbance. Although the moving average representation is of order one, the autoregressive representationis of infinite order.
+
+The condition $|\theta| \lt 0$ is convergent, indicating the coefficients of the lagged variables $\Delta p_t$ converge to zero. When a convergent autore-gressive representation exists, the moving average representation is said to be invertible.
+The condition $|\theta| \lt 0$ thus defines the invertible solution for the MA(1)parameters
 
