@@ -134,7 +134,7 @@ We have $\mathbb{E}[q_i^2]=0$ since $q_i \in \{-1, 1\}$. Using continuation prob
 $$
 \begin{aligned}
 \mathbb{E}\bigl[v_{t+1}\,v_{t+2}^2\bigr]
-&= E\Bigl[v_1\,\bigl(q_2^2 - 2\phi\,q_1q_2 + q_1^2\bigr)\Bigr] \\[6pt]
+&= \mathbb{E}\Bigl[v_1\,\bigl(q_2^2 - 2\phi\,q_1q_2 + q_1^2\bigr)\Bigr] \\[6pt]
 &= -2\phi\,\mathbb{E}\bigl[q_1q_2\,v_1\bigr] \\[6pt]
 &= -2\phi\,\mathbb{E}\bigl[q_1q_2\,(q_1 - \phi\,q)\bigr].
 \end{aligned}
