@@ -10,7 +10,7 @@ Time series data often exhibit dependence across observations, which violates th
 
 **Stationary**
 
-- Covariance Stationray:  $Cov(x_t, x_{t-k})=\gamma_k$
+- Covariance Stationray:  $\operatorname{Cov}(x_t, x_{t-k})=\gamma_k$
 - Constant Mean: $Ex_t = \mu$
 
 **Ergodic**
@@ -83,5 +83,19 @@ $$
 This is the autoregressive form: $\Delta p$ is expressed as a linear function of its own lagged values and the current disturbance. Although the moving average representation is of order one, the autoregressive representationis of infinite order.
 
 The condition $|\theta| \lt 0$ is convergent, indicating the coefficients of the lagged variables $\Delta p_t$ converge to zero. When a convergent autore-gressive representation exists, the moving average representation is said to be invertible.
-The condition $|\theta| \lt 0$ thus defines the invertible solution for the MA(1)parameters
+The condition $|\theta| \lt 0$ thus defines the invertible solution for the MA(1) parameters.
+
+To move between moving average and autoregressive representations, it is often convinient to use the lag operator, $L$ (sometimes written as the backshift operator, B). It is defined as $Lx_t=x_{t-1}$. For example, $Lx_t=x_{t-1}$, and $L^2x_t=x_{t-2}$. We can generate leads, such as $L^{-3}x_t=x_{t+3}$.
+
+Here, we have $\Delta p_t=\varepsilon_t+\theta L \varepsilon_t=(1+\theta L)\varepsilon_t$. The autoregressive representation is:
+
+$$
+\Delta p_t = \left( \theta L - \theta^2 L^2 + \theta^3 L^3 + \cdots \right) \Delta p_t + \varepsilon_t.
+$$
+
+in summary, the moving average and autoregression representation are equivalent, though one may be simpler than the other. For example, the Roll model is a moving average of order one, but the autoregressive representation is of infinite order. Sometimes the autoregressive representation is the simpler one, with the form $x_t=\phi x_{t-1}+\varepsilon_t$, or using the lag operator, $(1-\phi L)x_t = \varepsilon$. The equivalent moving average form is:
+
+$$
+x_t=(1-\phi L)^{-1}\varepsilon_t=\varepsilon_t+\phi\epsilon_{t-1}+\phi^2\varepsilon_{t-2}+\cdots
+$$
 
