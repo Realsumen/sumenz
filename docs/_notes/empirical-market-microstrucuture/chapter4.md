@@ -11,7 +11,7 @@ Time series data often exhibit dependence across observations, which violates th
 **Stationary**
 
 - Covariance Stationray:  $\operatorname{Cov}(x_t, x_{t-k})=\gamma_k$
-- Constant Mean: $Ex_t = \mu$
+- Constant Mean: $\mathbb{E}x_t = \mu$
 
 **Ergodic**
 
@@ -39,7 +39,7 @@ Nonergodicity is introduced when the model has a drift term, recursively defined
 We start with a white noise process, where:
 
 $$
-E[\varepsilon_t] = 0,\qquad \mathrm{Var}(\varepsilon_t) = \sigma^2_\varepsilon, \qquad \mathrm{Cov}(\varepsilon_t, \varepsilon_s) = 0 \quad\text{for } s \ne t
+\mathbb{E}[\varepsilon_t] = 0,\qquad \mathrm{Var}(\varepsilon_t) = \sigma^2_\varepsilon, \qquad \mathrm{Cov}(\varepsilon_t, \varepsilon_s) = 0 \quad\text{for } s \ne t
 $$
 
 The moving averagemodel of order one (the MA(1) process) is:

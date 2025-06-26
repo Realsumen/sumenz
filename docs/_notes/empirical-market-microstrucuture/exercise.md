@@ -20,7 +20,7 @@ $$
 q_t = \phi\,q_{t-1} + v_t
 $$
 
-where $E[v_t] = 0$, $E[v_t^2] = \sigma_v^2$, and $E[v_t\,v_{t-k}] = 0$ for $k \neq 0$.  The model may be analyzed by constructing a table of the eight possible realizations (paths) of $(q_t, q_{t+1}, q_{t+2})$.
+where $\mathbb{E}[v_t] = 0$, $\mathbb{E}[v_t^2] = \sigma_v^2$, and $\mathbb{E}[v_t\,v_{t-k}] = 0$ for $k \neq 0$.  The model may be analyzed by constructing a table of the eight possible realizations (paths) of $(q_t, q_{t+1}, q_{t+2})$.
 
 ---
 
@@ -39,9 +39,9 @@ $$
 Compute $v_{t+1}$ and $v_{t+2}$.  Verify that
 
 $$
-E[v_{t+1}] = E[v_{t+2}] = 0
+\mathbb{E}[v_{t+1}] = \mathbb{E}[v_{t+2}] = 0
 \quad\text{and}\quad
-\mathrm{Cov}(v_{t+1}, v_{t+2}) = E[v_{t+1}v_{t+2}] = 0.
+\mathrm{Cov}(v_{t+1}, v_{t+2}) = \mathbb{E}[v_{t+1}v_{t+2}] = 0.
 $$
 
 ---
@@ -68,7 +68,7 @@ From the continuation probability, we can have the expectation:
 
 $$
 \begin{aligned}
-E[q_t \mid q_{t-1}]
+\mathbb{E}[q_t \mid q_{t-1}]
 &= \alpha\,q_{t-1} - (1-\alpha)\,q_{t-1} \\[6pt]
 &= (2\alpha-1)\,q_{t-1} \\[6pt]
 &= \phi \, q_{t-1}
@@ -77,9 +77,9 @@ $$
 
 Therefore, we have:
 $$
-E[q_t]
-=E\bigl[E[q_t\mid q_{t-1}]\bigr]
-=\phi\,E[q_{t-1}].
+\mathbb{E}[q_t]
+=\mathbb{E}\bigl[\mathbb{E}[q_t\mid q_{t-1}]\bigr]
+=\phi\,\mathbb{E}[q_{t-1}].
 $$
 
 ### Problem (b)
@@ -94,8 +94,8 @@ $$
 Condition $v_{t+1}$ on $q_t$:
 
 $$
-E[v_{t+1}\mid q_t]
-=E[q_{t+1}\mid q_t]-\phi\,q_t
+\mathbb{E}[v_{t+1}\mid q_t]
+=\mathbb{E}[q_{t+1}\mid q_t]-\phi\,q_t
 =\phi\,q_t-\phi\,q_t
 =0.
 $$
@@ -103,9 +103,9 @@ $$
 The unconditional expectation is 
 
 $$
-E[v_{t+1}]
-=E\bigl[E[v_{t+1}\mid q_t]\bigr]
-=E[0]=0.
+\mathbb{E}[v_{t+1}]
+=\mathbb{E}\bigl[\mathbb{E}[v_{t+1}\mid q_t]\bigr]
+=\mathbb{E}[0]=0.
 $$
 
 For the covariance, we need to calculate:
@@ -116,11 +116,12 @@ $$
 =E\Bigl[(q_{t+1}-\phi q_t)(q_{t+2}-\phi q_{t+1})\Bigr].
 $$
 
-We have $E[q_i^2]=0$ since $q_i \in \{-1, 1\}$. Using continuation probability, we can prove that $E[q_tq_{t-1}]=\phi$. This leads to $\mathrm{Cov}(v_{t+1},v_{t+2})=0$.
+We have $\mathbb{E}[q_i^2]=0$ since $q_i \in \{-1, 1\}$. Using continuation probability, we can prove that $\mathbb{E}[q_tq_{t-1}]=\phi$. This leads to $\mathrm{Cov}(v_{t+1},v_{t+2})=0$.
 
 ### Problem (c)
 
-**Notation.**  
+**Notation.**
+
 - Let $q = q_t$  
 - Let $q_1 = q_{t+1}$  
 - Let $q_2 = q_{t+2}$  
@@ -132,10 +133,10 @@ We have $E[q_i^2]=0$ since $q_i \in \{-1, 1\}$. Using continuation probability, 
 
 $$
 \begin{aligned}
-E\bigl[v_{t+1}\,v_{t+2}^2\bigr]
+\mathbb{E}\bigl[v_{t+1}\,v_{t+2}^2\bigr]
 &= E\Bigl[v_1\,\bigl(q_2^2 - 2\phi\,q_1q_2 + q_1^2\bigr)\Bigr] \\[6pt]
-&= -2\phi\,E\bigl[q_1q_2\,v_1\bigr] \\[6pt]
-&= -2\phi\,E\bigl[q_1q_2\,(q_1 - \phi\,q)\bigr].
+&= -2\phi\,\mathbb{E}\bigl[q_1q_2\,v_1\bigr] \\[6pt]
+&= -2\phi\,\mathbb{E}\bigl[q_1q_2\,(q_1 - \phi\,q)\bigr].
 \end{aligned}
 $$
 
@@ -145,17 +146,17 @@ $$
 
 1. Since $q_1^2 = 1$,
 $$
-E[q_1^2\,q_2] = E[q_2].
+\mathbb{E}[q_1^2\,q_2] = \mathbb{E}[q_2].
 $$
 
-2. Using the Markov property and conditioning on $q$,
+1. Using the Markov property and conditioning on $q$,
 
 $$
 \begin{aligned}
-E[q\,q_1q_2]
-&= E\bigl[q \,E[q_1q_2\mid q]\bigr] \\[6pt]
-&= E\bigl[q \,\phi\bigr] \quad\bigl(\text{since }E[q_1q_2\mid q]=\phi\bigr) \\[6pt]
-&= \phi\,E[q]. \\[6pt]
+\mathbb{E}[q\,q_1q_2]
+&= \mathbb{E}\bigl[q \,\mathbb{E}[q_1q_2\mid q]\bigr] \\[6pt]
+&= \mathbb{E}\bigl[q \,\phi\bigr] \quad\bigl(\text{since }\mathbb{E}[q_1q_2\mid q]=\phi\bigr) \\[6pt]
+&= \phi\,\mathbb{E}[q]. \\[6pt]
 \end{aligned}
 $$
 
